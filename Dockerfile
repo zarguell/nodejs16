@@ -1,6 +1,15 @@
-ARG BASE_REGISTRY=registry1.dso.mil
-ARG BASE_IMAGE=ironbank/redhat/ubi/ubi8
-ARG BASE_TAG=8.6
+######################## Base Args ########################
+ARG BASE_REGISTRY=docker.io
+ARG BASE_IMAGE=zarguell/ubi8
+ARG BASE_TAG=latest
+
+FROM ${BASE_REGISTRY}/${BASE_IMAGE}:${BASE_TAG} as builder
+
+# ARG BASE_REGISTRY=registry1.dso.mil
+# ARG BASE_IMAGE=ironbank/redhat/ubi/ubi8
+# ARG BASE_TAG=8.6
+
+# FROM ${BASE_REGISTRY}/${BASE_IMAGE}:${BASE_TAG} as builder
 
 FROM node:16.18.0 as base
 
