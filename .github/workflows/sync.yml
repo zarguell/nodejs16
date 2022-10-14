@@ -18,7 +18,7 @@ jobs:
     - name: Clone/Copy Remote
       run: |-
         git clone https://repo1.dso.mil/dsop/opensource/nodejs/nodejs16.git
-        rsync -a --exclude={'.gitlab','.git','.gitignore'} nodejs16/ ./
+        rsync -a --exclude={'Dockerfile','.gitlab','.git','.gitignore'} nodejs16/ ./
         rm -rf nodejs16
 
     - name: Commit and push if it changed
