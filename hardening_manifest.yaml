@@ -8,7 +8,7 @@ tags:
 
 args:
   BASE_IMAGE: redhat/ubi/ubi8
-  BASE_TAG: '8.6'
+  BASE_TAG: '8.7'
 
 labels:
   org.opencontainers.image.title: nodejs16
