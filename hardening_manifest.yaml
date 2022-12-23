@@ -24,7 +24,7 @@ labels:
 
 resources:
 - tag: node:16.19.0
-  url: docker://docker.io/library/node@sha256:16b3a8cae1809c1841995127780eeb6880b409d10b294817e6a9718458a73df6
+  url: docker://docker.io/library/node@sha256:64e8bcdfdad6718050801a2639f7e6645fdaf85ec37a98cdb61f6a5331217618
 
 maintainers:
 - email: obuh.alozie@solute.us
