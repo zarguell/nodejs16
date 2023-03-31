@@ -3,7 +3,7 @@ apiVersion: v1
 name: opensource/nodejs/nodejs16
 
 tags:
-- 16.19.1
+- 16.20.0
 - latest
 
 args:
@@ -17,14 +17,14 @@ labels:
   org.opencontainers.image.licenses: MIT
   org.opencontainers.image.url: https://nodejs.org
   org.opencontainers.image.vendor: Node.js
-  org.opencontainers.image.version: 16.19.1
+  org.opencontainers.image.version: 16.20.0
   mil.dso.ironbank.image.keywords: nodejs,npm
   mil.dso.ironbank.image.type: opensource
   mil.dso.ironbank.product.name: Node.js
 
 resources:
-- tag: node:16.19.1
-  url: docker://docker.io/library/node@sha256:e97b6d302062583e09be70f430b703637f6ef26c2cbb0d7bfed61e0be9d7a974
+- tag: node:16.20.0
+  url: docker://docker.io/library/node@sha256:051b68ed341fee26f4c08b15815ac4bff6a5351c68e7b33c66912677cc4be7ac
 
 maintainers:
   - name: "Jacob Hanafin"
