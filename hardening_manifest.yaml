@@ -24,7 +24,7 @@ labels:
 
 resources:
 - tag: node:16.20.0
-  url: docker://docker.io/library/node@sha256:a374adc03f729b1aeab67f7d1d2d064d44cdc61246f4f13d47f68c2ba71a3cce
+  url: docker://docker.io/library/node@sha256:550f484fc5f314b575f5e397c9e2c71d7f218e59729fcda9ffa7ea1fc825dce7
 
 maintainers:
   - name: "Jacob Hanafin"
