@@ -8,7 +8,7 @@ tags:
 
 args:
   BASE_IMAGE: redhat/ubi/ubi8
-  BASE_TAG: '8.7'
+  BASE_TAG: '8.8'
 
 labels:
   org.opencontainers.image.title: nodejs16
@@ -24,7 +24,7 @@ labels:
 
 resources:
 - tag: node:16.20.0
-  url: docker://docker.io/library/node@sha256:550f484fc5f314b575f5e397c9e2c71d7f218e59729fcda9ffa7ea1fc825dce7
+  url: docker://docker.io/library/node@sha256:5d256e870e277b6e5533c8fdb007345657ad9e5cd95c6f710e8d0c60fed5dfc4
 
 maintainers:
   - name: "Jacob Hanafin"
